@@ -288,7 +288,7 @@ wc -l chip_vs_control_peaks.narrowPeak
 
 ---
 
-## 8. Visualization in IGV
+## Visualization in IGV
 
 **Create BigWig Coverage Files**
 
