@@ -419,7 +419,7 @@ ChIP-seq Guidelines and Practices of the ENCODE and modENCODE Consortia.
 Genome Research.  
 https://genome.cshlp.org/content/22/9/1813
 
-### Software Documentation
+**Software Documentation**
 
 **Bowtie2**
 http://bowtie-bio.sourceforge.net/bowtie2
