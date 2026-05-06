@@ -26,7 +26,9 @@ SAMtools BAM Processing
 MACS2 Peak Calling
 
  ↓
+ 
 IGV Visualization
 
  ↓
+ 
 MEME/FIMO Motif Analysis
