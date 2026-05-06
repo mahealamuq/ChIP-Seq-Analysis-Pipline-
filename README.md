@@ -7,8 +7,8 @@ The workflow is designed for transcription factor ChIP-seq experiments comparing
 
 ## Table of contents 
 
-- [1. Introduction](#1.-introduction)
-- [2. Workflow Overview](#2.-workflow-overview)
+- [1. Introduction](#1-.-introduction)
+- [2. Workflow Overview](#2-.-workflow-overview)
 3. Software Requirements
 4. Installation
 5. Data Download
