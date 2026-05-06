@@ -8,16 +8,16 @@ The workflow is designed for transcription factor ChIP-seq experiments comparing
 ## Table of contents 
 
 - [Introduction](#introduction)
-- [2. Workflow Overview](#workflow-overview)
+- [Workflow Overview](#workflow-overview)
 - [Software Requirements](#software-requirements)
-4. Installation
-5. Data Download
-6. Running the Pipeline
-7. Peak Calling
-8. Visualization in IGV
-9. Motif Analysis
-10. Results
-11. References
+- [Installation](#installation)
+- [Data Download](#data-download)
+- [Running the Pipeline](#running-the-pipeline)
+- [Peak Calling](#peak-calling)
+- [Visualization in IGV](#visualization-in-IGV)
+- [Motif Analysis](#motif-analysis)
+- [Results](#results)
+- [References](#references)
 
 # ChIP-seq Analysis Pipeline
 
