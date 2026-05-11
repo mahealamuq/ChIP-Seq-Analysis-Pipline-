@@ -5,7 +5,7 @@ This repository contains a complete ChIP-seq bioinformatics workflow for identif
 
 The workflow is designed for transcription factor ChIP-seq experiments comparing antibody-enriched samples against input/control samples.
 
-## Table of contents 
+# Table of contents 
 
 - [Introduction](#introduction)
 - [Workflow Overview](#workflow-overview)
@@ -21,7 +21,7 @@ The workflow is designed for transcription factor ChIP-seq experiments comparing
 
 # ChIP-seq Analysis Pipeline
 
-## Introduction
+# Introduction
 
 This repository contains a complete ChIP-seq bioinformatics workflow for identifying genome-wide protein–DNA binding sites using next-generation sequencing (NGS) data.
 
@@ -47,7 +47,7 @@ to identify statistically enriched DNA-binding regions (peaks).
 
 ---
 
-## Workflow Overview
+# Workflow Overview
 
 **Pipeline Workflow**
 
@@ -79,8 +79,45 @@ Motif Discovery (MEME/FIMO)
 8. Discover transcription factor motifs
 
 ---
+# Run Complete ChIP-seq Pipeline
+**1. Clone the repository**
+```bash
 
-## Software Requirements
+```
+**Make the Script Executable**
+
+```bash
+chmod +x chipseq_full_analysis.sh
+```
+
+**Run the Pipeline**
+
+```bash
+./chipseq_full_analysis.sh
+```
+
+**What the Pipeline Does**
+
+The script automatically performs:
+
+1. Software installation
+2. Conda environment setup
+3. Reference genome download
+4. Bowtie2 index generation
+5. SRA data download
+6. FASTQ conversion
+7. FastQC quality control
+8. Read alignment using Bowtie2
+9. BAM sorting and indexing
+10. Peak calling using MACS2
+11. BigWig generation
+12. Peak sequence extraction
+13. MEME motif analysis
+14. FastQC and MEME HTML report generation
+
+    
+
+# Software Requirements
 
 **Operating System**
 
@@ -202,7 +239,7 @@ gzip *.fastq
 
 ---
 
-## Running the Pipeline
+## Pipeline Steps
 
 **Step 1: Quality Control**
 
