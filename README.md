@@ -9,10 +9,11 @@ The workflow is designed for transcription factor ChIP-seq experiments comparing
 
 - [Introduction](#introduction)
 - [Workflow Overview](#workflow-overview)
+- [Run Complete ChIP-seq Pipeline](#Run-Complete-ChIP-seq-Pipeline)  
 - [Software Requirements](#software-requirements)
 - [Installation](#installation)
 - [Data Download](#data-download)
-- [Running the Pipeline](#running-the-pipeline)
+- [Pipeline Steps](#pipeline-steps)
 - [Peak Calling](#peak-calling)
 - [Visualization in IGV](#visualization-in-IGV)
 - [Motif Analysis](#motif-analysis)
@@ -79,10 +80,11 @@ Motif Discovery (MEME/FIMO)
 8. Discover transcription factor motifs
 
 ---
-# Run Complete ChIP-seq Pipeline
+# Run Complete ChIP-seq Pipeline 
 **1. Clone the repository**
 ```bash
 git clone https://github.com/mahealamuq/ChIP-Seq-Analysis-Pipline-.git
+cd ChIP-Seq-Analysis-Pipline-
 
 ```
 **Make the Script Executable**
