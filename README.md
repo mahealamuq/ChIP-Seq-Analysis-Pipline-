@@ -82,6 +82,7 @@ Motif Discovery (MEME/FIMO)
 # Run Complete ChIP-seq Pipeline
 **1. Clone the repository**
 ```bash
+git clone https://github.com/mahealamuq/ChIP-Seq-Analysis-Pipline-.git
 
 ```
 **Make the Script Executable**
